@@ -1,0 +1,259 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+    }
+
+    body{
+        font-family: 'Oswald';
+    }
+
+    header{
+        width: 100%;
+        height: 100px;
+        background-color: #f2f2f2;
+        margin: 0px;
+        
+    }
+   
+    main div h2 {
+    background-color:rgb(127, 97, 138);
+    clear: both;
+      }
+
+   
+   h2 {
+        color: #021651;
+        text-align: center;
+        padding: 5px;
+        letter-spacing: 1px;
+            
+    }
+
+    header img{
+        max-width: 100px;
+        float: left;
+       position: absolute;
+       left: 20px;
+    }
+    header nav{
+        font-family: 'Assistant';  
+    }
+    .menuHeader ul{
+        list-style: none;
+        position:absolute;
+        left: 190px;
+         
+    }
+    .menuHeader li{
+        float: left;
+        margin-top: 15px;
+       
+    }
+    .menuHeader li a{
+        text-decoration: none;
+        padding: 20px;
+        display: inline-block;
+        color:#021651;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .menuHeader li a:hover{
+        color:#ed1b24;
+        padding-top: 1px;
+    }
+    main{
+        clear: both;
+        width: 70%;
+        background-color: #03114569;
+        float: left;
+        height: 100vh;
+        overflow-y: auto;
+        height: 600px;
+        
+        }
+
+    section{
+        padding: 0px;
+        
+    }
+    section .card-product{
+        max-width: 30.3%;
+        border: 2px solid  rgb(89, 39, 107);
+        border-radius: 20px;
+        background-color: white;
+        padding-top: 10px;
+        float: left;
+        margin: 10px;
+        padding: 10px;
+    }
+    section .card-product img{
+        max-width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid rgb(89, 39, 107);
+    }
+
+    section .card-product img:hover{
+        padding: 2px;
+       
+    }
+    section .card-product .description{
+        text-align: center;
+        line-height: 200%; 
+        font-family: 'Assistant';  
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    
+   
+    section .card-product  .precio{
+        text-align: center;
+        font-size: 18px;
+        color: #021651;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+        
+    }
+
+  
+ 
+    section .card-product-footer{
+        width: 100%;
+        background-color:  #62495b;
+        height: 40px;
+        border-radius: 0px 0px 20px 20px;
+         
+    }
+    section .card-product-footer button{
+        width: 50%;
+        float: left;
+        height: 40px;
+        background-color: #62495b;
+        border-radius: 0px 0px 20px 20px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    aside{
+        width: 30%;
+        background-color: #f2f2f2;
+        padding: 20px;
+        float: right;
+        height: 90vh;
+        padding: 30px;
+    }
+    
+    aside section nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    aside section nav li{
+        margin-bottom: 10px;
+        border-bottom: 1px solid  rgb(89, 39, 107);
+    }
+    aside section nav a{
+        text-decoration: none;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    aside section nav li:hover{
+        border-bottom: 1px solid #021651;
+        color:  rgb(89, 39, 107);
+    }
+  
+   
+.h2comprar{
+    margin-top: 40px;
+    border:2px solid #021651;
+    border-radius: 20px 20px 20px 20px;
+    height: 200px;
+    background-color:  #62495b;
+}
+
+
+h3{
+ text-align-last: center;
+padding: 5px;
+color: rgb(65, 22, 81);;
+}
+
+h3:hover{
+    color: rgb(187, 255, 0);
+    padding-left: 20px;
+}
+
+.boton-comprar{
+        width: 60%;
+        height: 30px;
+        cursor: pointer;
+        background-color:  rgb(89, 39, 107);
+        color: white;
+        border-radius: 10px;
+        margin-left: 70px;
+        
+    }
+
+    #boton-seguir{
+        font-size: 15px;
+        color: rgb(184, 171, 171);
+    }
+
+    .boton-comprar:hover{
+        color: #0b16b3;
+    }
+  
+    .inputbuscar{
+        width: 60%;
+        height: 30px;
+        cursor: pointer;
+        background-color:  rgb(204, 189, 210);
+        color:  rgb(89, 39, 107);
+        border-radius: 10px;
+        margin-left: 70px;
+        font-weight: bold;
+        
+    }
+
+    .msg {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        height: 46px;
+        width: 95%;        
+        color: whitesmoke;
+        border-radius: 6px;
+        
+    }
+ 
+    footer{ 
+        clear: both;
+        padding: 60px;
+        background-color:  rgb(89, 39, 107);
+        color: white;
+   }
+    footer div{
+        width: 50%; 
+    }
+    footer .one{
+        float: left;
+    }
+    footer .two{
+        float: right;
+        text-align: right;
+    }
+    footer .two a{
+        color: white;
+        text-decoration: none;
+        padding-right: 10px;
+    }
